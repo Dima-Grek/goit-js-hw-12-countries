@@ -2,12 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
     background-color: rgb(204, 193, 211);
-=======
     background-color: rgb(225, 188, 247);
-  max-width 1600px
->>>>>>> 0f282b08edf5bf45145813780444bb42f4cd483b
 }
 
 ul {
@@ -65,25 +61,23 @@ ul {
     width: 300px;
 }
 
-<<<<<<< HEAD
 .travel-img {
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: +100;
-=======
+    z-index: -100;
+}
+
 .baggage-img {
-    
     bottom: 0;
     right: 0;
     background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
->>>>>>> 0f282b08edf5bf45145813780444bb42f4cd483b
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .language,
@@ -103,14 +97,11 @@ ul {
     display: block;
     content: '';
     background: transparent;
-<<<<<<< HEAD
     background-image: url(./images/air.png);
     background-size: contain;
     background-repeat: no-repeat;
-=======
     background-image: url(./images/travel.jpg);
     background-size: center;
->>>>>>> 0f282b08edf5bf45145813780444bb42f4cd483b
     width: 20px;
     height: 20px;
 }
