@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(225, 188, 247);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    display: block;
+    margin: 11px auto;
+    margin-top: 60px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.input {
+    max-width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.country {
+    padding: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.country__name {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 40px;
+}
+
+.country__info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: rgb(0, 0, 75);
+}
+
+.country__description {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.country-list__link {
+    color: rgb(0, 104, 173);
+}
+
+.country__flag {
+    border: black 1px solid;
+    width: 300px;
+}
+
+.baggage-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -100;
+}
+
+.language,
+.currency,
+.country-list__item {
+    position: relative;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.language::before,
+.currency::before,
+.country-list__item::before {
+    position: absolute;
+    top: 4px;
+    left: -25px;
+    display: block;
+    content: '';
+    background: transparent;
+    background-image: url(../images/travel);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
