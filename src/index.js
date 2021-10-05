@@ -57,3 +57,6 @@ function onFetchError() {
     text: 'No matches found, please enter a new query.',
   });
 }
+$(".reset").click(function() {
+    $(this).closest('form').find("input[type=text], textarea").val("");
+});
